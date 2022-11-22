@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+.btnOn {
+	padding:10px 20px;
+	display:inline-block;
+	border-radius:3px;
+	background:#76B1E0;
+	font-size:16px;
+	color:#333;
+}
+
+.btnOff {
+	padding:10px 20px;
+	display:inline-block;
+	border-radius:3px;
+	background:#D2F0E6;
+	font-size:16px;
+	color:#333;
+}
+
+.btnA {
+	padding:10px 20px;
+	display:inline-block;
+	border-radius:3px;
+	background:#3F9C9A;
+	font-size:16px;
+	color:#333;
+}
+
+.btnB {
+	padding:10px 20px;
+	display:inline-block;
+	border-radius:3px;
+	background:#2CA15C;
+	font-size:16px;
+	color:#333;
+}
