@@ -14,8 +14,8 @@ export class AppComponent {
 
 
   recipeState: recipe[] = [
-    { id: 0, State: 0 }, // esta en el punto A = 1 o punto B = 0
-    { id: 1, State: 1 } // esta cargado = 1 o no tiene cacrga = 0
+    { id: 0, State: 1 }, // esta en el punto A = 1 o punto B = 0
+    { id: 1, State: 0 } // esta cargado = 1 o no tiene cacrga = 0
 ];
   get state(): State {
     return this.StatePoint.On
