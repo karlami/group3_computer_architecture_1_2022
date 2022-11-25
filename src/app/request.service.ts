@@ -10,9 +10,7 @@ export class RequestService {
   constructor(private http: HttpClient) { 
 
   }
-
   baseURL: string = "http://localhost:3030/";
-  
 
   getSensorStatus() {
     console.log("get sensor status!");
@@ -20,7 +18,7 @@ export class RequestService {
     return this.http.get<any[]>(url);
   }
 
-  getLight(): Observable <any> {
+  getSensor(): Observable <any> {
     console.log("get sensor status");
     const url = this.baseURL + "getSensor";
     return this.http.get<any>(url);
